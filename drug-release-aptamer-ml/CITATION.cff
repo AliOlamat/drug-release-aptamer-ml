@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the associated article and this repository."
+title: "Kinetic-informed machine learning for aptamer-induced modulation of drug release in PEGylated nanoliposomes"
+abstract: >-
+  Code and data for a proof-of-concept study combining classical release-kinetic
+  modeling with machine learning to analyze and forecast in vitro drug release
+  from aptamer-functionalized PEGylated nanoliposomes (Raloxifene, Naringin,
+  Etoricoxib; aptamer = Yes/No). All reported machine-learning metrics are
+  computed on the six real experimental profiles using leakage-free grouped
+  cross-validation.
+type: software
+authors:
+  - family-names: Olamat
+    given-names: Ali
+    orcid: "https://orcid.org/0000-0002-3544-7916"
+    affiliation: "Al-Ahliyya Amman University, Amman, Jordan"
+  - family-names: Al-Samydai
+    given-names: Ali
+  - family-names: Al-Nabulsi
+    given-names: Jamal I.
+  - family-names: Nsairat
+    given-names: Hamdi
+  - family-names: Al-khatib
+    given-names: Arwa
+  - family-names: Abu Owida
+    given-names: Hamza
+version: "1.0.0"
+date-released: "2026-10-26"
+license: MIT
+# repository-code: "https://github.com/<ORG-OR-USER>/drug-release-aptamer-ml"   # [FILL after creating the repo]
+# doi: "10.5281/zenodo.XXXXXXX"                                                 # [FILL after archiving to Zenodo]
+keywords:
+  - drug release
+  - release kinetics
+  - Weibull
+  - machine learning
+  - aptamer
+  - PEGylated liposomes
+  - nanomedicine
